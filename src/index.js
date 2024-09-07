@@ -10,12 +10,12 @@ const dockerHub = "https://registry-1.docker.io";
 const routes = {
   // production
   "dockerhub.20000216.xyz": dockerHub,
-  "quay.dockerhub.20000216.xyz": "https://quay.io",
-  "gcr.dockerhub.20000216.xyz": "https://gcr.io",
-  "k8s-gcr.dockerhub.20000216.xyz": "https://k8s.gcr.io",
-  "k8s.dockerhub.20000216.xyz": "https://registry.k8s.io",
-  "ghcr.dockerhub.20000216.xyz": "https://ghcr.io",
-  "cloudsmith.dockerhub.20000216.xyz": "https://docker.cloudsmith.io",
+  "quay.20000216.xyz": "https://quay.io",
+  "gcr.20000216.xyz": "https://gcr.io",
+  "k8s-gcr.20000216.xyz": "https://k8s.gcr.io",
+  "k8s.20000216.xyz": "https://registry.k8s.io",
+  "ghcr.20000216.xyz": "https://ghcr.io",
+  "cloudsmith.20000216.xyz": "https://docker.cloudsmith.io",
 
   // staging
   "docker-staging.dockerhub.20000216.xyz": dockerHub,
