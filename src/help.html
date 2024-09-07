@@ -108,22 +108,22 @@ sudo systemctl restart docker
 docker pull dockerhub.20000216.xyz/library/nginx:latest  # 拉取 Docker 官方镜像
 
 # docker pull quay.io/coreos/etcd:latest
-docker pull quay.dockerhub.20000216.xyz/coreos/etcd:latest  # 拉取 Quay 镜像
+docker pull quay.20000216.xyz/coreos/etcd:latest  # 拉取 Quay 镜像
 
 # docker pull gcr.io/google-containers/busybox:latest
-docker pull gcr.dockerhub.20000216.xyz/google-containers/busybox:latest  # 拉取 GCR 镜像
+docker pull gcr.20000216.xyz/google-containers/busybox:latest  # 拉取 GCR 镜像
 
 # docker pull k8s.gcr.io/pause:latest
-docker pull k8s-gcr.dockerhub.20000216.xyz/pause:latest  # 拉取 k8s.gcr.io 镜像
+docker pull k8s-gcr.20000216.xyz/pause:latest  # 拉取 k8s.gcr.io 镜像
 
 # docker pull registry.k8s.io/pause:latest
-docker pull k8s.dockerhub.20000216.xyz/pause:latest  # 拉取 registry.k8s.io 镜像
+docker pull k8s.20000216.xyz/pause:latest  # 拉取 registry.k8s.io 镜像
 
 # docker pull ghcr.io/github/super-linter:latest
-docker pull ghcr.dockerhub.20000216.xyz/github/super-linter:latest  # 拉取 GitHub 容器镜像
+docker pull ghcr.20000216.xyz/github/super-linter:latest  # 拉取 GitHub 容器镜像
 
 # docker pull docker.cloudsmith.io/public/repo/image:latest
-docker pull cloudsmith.dockerhub.20000216.xyz/public/repo/image:latest  # 拉取 Cloudsmith 镜像
+docker pull cloudsmith.20000216.xyz/public/repo/image:latest  # 拉取 Cloudsmith 镜像
 </code></pre>
         <p>为了避免 Worker 用量耗尽，你可以手动 pull 镜像然后 re-tag 之后 push 至本地镜像仓库。</p>
     </div>
